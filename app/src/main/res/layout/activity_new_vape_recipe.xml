@@ -4,4 +4,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="recipe name"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nic 1.5 %"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nic 3 %"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nic 6 %"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="PG %"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="VG %"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="volume ml."
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_marginTop="264dp"
+        android:layout_marginLeft="264dp"
+        />
+
 </LinearLayout>
