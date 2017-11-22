@@ -27,5 +27,15 @@
         android:text="vape library"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="vape calc"
+        />
+
+
 
 </LinearLayout>
